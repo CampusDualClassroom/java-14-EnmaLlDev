@@ -8,4 +8,9 @@ public class Person {
 		this.name = name;
 		this.surname = surname;
 	}
+	public void getDetails() {
+		StringBuilder details = new StringBuilder();
+		details.append("Name: "+name).append(", Surname: "+surname);
+		System.out.println(details);
+	}
 }
